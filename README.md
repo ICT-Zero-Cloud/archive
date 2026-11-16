@@ -1,0 +1,68 @@
+# 제로클라우드 아카이브
+
+KISIA ICT융합보안크루 3기 제로클라우드의 논문, 발표 자료와 활동 기록을 모았습니다.
+
+[팀 소개](https://github.com/ICT-Zero-Cloud) / [성과보고회 발표 자료 (PDF)](showcase/final-presentation.pdf) / [활동 기록](showcase/)
+
+## 연구의 출발점
+
+클라우드는 사용자, 권한, 서비스와 데이터가 서로 연결된 생태계입니다. 한 계정의 침해가 다른 서비스와 중요정보로 이어질 수 있지만, 그 흔적은 서비스별 로그에 나뉘어 남습니다.
+
+중요정보가 어디로 이동할 수 있는지 통제하고, 침해가 의심되면 중요정보에 미친 영향을 추적하며, 남은 기록을 근거로 사고를 조사할 수 있어야 합니다. 저희는 이 필요를 하나의 질문으로 묶습니다.
+
+> 클라우드 생태계에서 중요정보의 이동과 침해의 흐름을 어떻게 통제하고 추적할 수 있을까?
+
+이 질문을 정보 이동 통제, 침해 영향 추적, 사고 경로 재구성의 세 관점에서 연구합니다.
+
+## 연구 자료
+
+2026년 한국정보보호학회 동계학술대회 CISC-W’26에서 발표한 논문 6편과 학회 발표 자료입니다. 논문 제목을 누르면 연구 설명과 관련 자료를 함께 확인할 수 있습니다.
+
+### N2SF
+
+N2SF를 기반으로 외부 협업의 정보 노출 경로와 통제 지점을 분석합니다. 통제 기준인 등급을 정보의 이동 이후에도 유지하고 확인하는 구조, 기관의 여건에 맞게 통제를 도입하는 절차를 함께 제안합니다.
+
+| 논문 | 발표 | 자료 |
+| --- | --- | --- |
+| [「N2SF 환경의 신규 위협 시나리오 분석과 공격 대응을 위한 보안 아키텍처 설계」](research/n2sf-threat/) | 포스터 | [원문](research/n2sf-threat/paper.pdf) / [발표](research/n2sf-threat/presentation.pdf) |
+| [「국가 망 보안체계 정보서비스 모델3의 등급 라벨 생애주기 통제 부재와 경계 중심 대응 아키텍처」](research/n2sf-label/) | 구두발표 | [원문](research/n2sf-label/paper.pdf) / [발표](research/n2sf-label/presentation.pdf) |
+| [「공공기관의 효율적인 국가망보안체계(N²SF) 도입을 위한 의사결정 프레임워크」](research/n2sf-adoption/) | 구두발표 | [원문](research/n2sf-adoption/paper.pdf) / [발표](research/n2sf-adoption/presentation.pdf) |
+
+### Taint
+
+미끼에 접촉한 주체와 중요정보에 서로 다른 표식을 부여합니다. 확인된 관계를 따라 표식을 추적하고, 두 표식이 교차하는 중요정보 접근 관계를 식별하는 구조를 제안합니다.
+
+| 논문 | 발표 | 자료 |
+| --- | --- | --- |
+| [「클라우드 지뢰형 탐지 기술과 비가역적 Taint 기반 침해 영향 추적 구조 제안」](research/taint/) | 포스터 | [원문](research/taint/paper.pdf) / [발표](research/taint/presentation.pdf) |
+
+### 시각화
+
+흩어진 CloudTrail 기록에서 자격증명과 자원 접근을 연결해 조사 경로를 재구성합니다. 로그가 없는 구간은 인프라의 전후 상태 차이에서 변경 흔적을 찾아 조사 근거를 보완합니다.
+
+| 논문 | 발표 | 자료 |
+| --- | --- | --- |
+| [「자격증명 흐름과 자원 접근을 연결하는 CloudTrail 침해 조사 그래프」](research/credential-graph/) | 구두발표 | [원문](research/credential-graph/paper.pdf) / [발표](research/credential-graph/presentation.pdf) |
+| [「CloudTrail 관측 공백 환경에서 AWS 인프라 상태 변화 기반 그래프 추적 모델」](research/state-change-graph/) | 구두발표 | [원문](research/state-change-graph/paper.pdf) / [발표](research/state-change-graph/presentation.pdf) |
+
+## 성과보고회와 수상
+
+[성과보고회 발표 자료](showcase/final-presentation.pdf)에서 전체 연구의 흐름과 검증 결과를 확인할 수 있습니다. 부록에 수록했던 논문별 발표 자료는 위 연구 목록에서 각각 제공합니다.
+
+| 날짜 | 수상 | 대상 |
+| --- | --- | --- |
+| 2026.11.10 | 한국정보보호산업협회 ICT 융합보안 우수크루상 | 제로클라우드 팀 |
+| 2026.10.29 | 행정안전부 장관상 | [N²SF 도입 의사결정 프레임워크 논문](research/n2sf-adoption/) |
+| 2026.10.29 | 한국정보보호학회장상 | [N2SF 모델3 등급 라벨 생애주기 통제 논문](research/n2sf-label/) |
+
+## 함께한 활동
+
+- 약 6개월간 공동 연구, 연구회의 65회
+- 보안 교육 6건 수료, 자격증 5건 취득, 외부 활동 6건 참여
+- ICT융합보안크루 3기 성과보고회 발표
+
+[학회 발표와 팀 활동 사진 보기](showcase/README.md)
+
+---
+
+[KISIA ICT융합보안크루 공식 아카이브](https://kisiadev.github.io/ict-archive/)에서 프로그램의 활동도 함께 확인할 수 있습니다.
