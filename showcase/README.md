@@ -41,9 +41,23 @@ KISIA ICT융합보안크루 3기 제로클라우드의 연구 성과와 활동�
 - ICT융합보안크루 3기 성과보고회 발표
 
 <details>
-<summary>팀 연구 활동 사진 보기</summary>
+<summary>연구와 학회 활동 사진 보기</summary>
 
-![팀 연구 활동](activities.png)
+### 오프라인 팀 회의
+
+<img src="activities.png" alt="오프라인 팀 회의 활동 기록" width="760">
+
+### 정기 온라인 회의
+
+<img src="activities-online.png" alt="정기 온라인 회의 활동 기록" width="760">
+
+### 연구팀별 협업
+
+<img src="activities-research-teams.png" alt="연구팀별 협업 활동 기록" width="760">
+
+### 학회 시상과 단체 사진
+
+<img src="activities-conference.png" alt="학회 시상과 단체 사진 활동 기록" width="760">
 
 </details>
 
