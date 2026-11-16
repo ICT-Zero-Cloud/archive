@@ -16,7 +16,7 @@ KISIA ICT융합보안크루 3기 제로클라우드의 논문, 발표 자료와 
 
 ## 연구 자료
 
-2026년 한국정보보호학회 동계학술대회 CISC-W’26에서 발표한 논문 6편과 학회 발표 자료입니다. 논문 제목을 누르면 연구 설명과 관련 자료를 함께 확인할 수 있습니다.
+2026년 한국정보보호학회 동계학술대회 CISC-W’26에서 발표한 논문 6편과 학회 발표 자료입니다. 자료 칸의 폴더에서 연구 설명과 논문 원문, 발표 PDF를 함께 확인할 수 있습니다.
 
 ### N2SF
 
@@ -24,9 +24,9 @@ N2SF를 기반으로 외부 협업의 정보 노출 경로와 통제 지점을 �
 
 | 논문 | 발표 | 자료 |
 | --- | --- | --- |
-| [「N2SF 환경의 신규 위협 시나리오 분석과 공격 대응을 위한 보안 아키텍처 설계」](research/n2sf-threat/) | 포스터 | [원문](research/n2sf-threat/paper.pdf) / [발표](research/n2sf-threat/presentation.pdf) |
-| [「국가 망 보안체계 정보서비스 모델3의 등급 라벨 생애주기 통제 부재와 경계 중심 대응 아키텍처」](research/n2sf-label/) | 구두발표 | [원문](research/n2sf-label/paper.pdf) / [발표](research/n2sf-label/presentation.pdf) |
-| [「공공기관의 효율적인 국가망보안체계(N²SF) 도입을 위한 의사결정 프레임워크」](research/n2sf-adoption/) | 구두발표 | [원문](research/n2sf-adoption/paper.pdf) / [발표](research/n2sf-adoption/presentation.pdf) |
+| 「N2SF 환경의 신규 위협 시나리오 분석과 공격 대응을 위한 보안 아키텍처 설계」 | 포&#8288;스&#8288;터 | [보기](research/n2sf-threat/) |
+| 「국가 망 보안체계 정보서비스 모델3의 등급 라벨 생애주기 통제 부재와 경계 중심 대응 아키텍처」 | 구&#8288;두&#8288;발&#8288;표 | [보기](research/n2sf-label/) |
+| 「공공기관의 효율적인 국가망보안체계(N²SF) 도입을 위한 의사결정 프레임워크」 | 구&#8288;두&#8288;발&#8288;표 | [보기](research/n2sf-adoption/) |
 
 ### Taint
 
@@ -34,7 +34,7 @@ N2SF를 기반으로 외부 협업의 정보 노출 경로와 통제 지점을 �
 
 | 논문 | 발표 | 자료 |
 | --- | --- | --- |
-| [「클라우드 지뢰형 탐지 기술과 비가역적 Taint 기반 침해 영향 추적 구조 제안」](research/taint/) | 포스터 | [원문](research/taint/paper.pdf) / [발표](research/taint/presentation.pdf) |
+| 「클라우드 지뢰형 탐지 기술과 비가역적 Taint 기반 침해 영향 추적 구조 제안」 | 포&#8288;스&#8288;터 | [보기](research/taint/) |
 
 ### 시각화
 
@@ -42,18 +42,16 @@ N2SF를 기반으로 외부 협업의 정보 노출 경로와 통제 지점을 �
 
 | 논문 | 발표 | 자료 |
 | --- | --- | --- |
-| [「자격증명 흐름과 자원 접근을 연결하는 CloudTrail 침해 조사 그래프」](research/credential-graph/) | 구두발표 | [원문](research/credential-graph/paper.pdf) / [발표](research/credential-graph/presentation.pdf) |
-| [「CloudTrail 관측 공백 환경에서 AWS 인프라 상태 변화 기반 그래프 추적 모델」](research/state-change-graph/) | 구두발표 | [원문](research/state-change-graph/paper.pdf) / [발표](research/state-change-graph/presentation.pdf) |
+| 「자격증명 흐름과 자원 접근을 연결하는 CloudTrail 침해 조사 그래프」 | 구&#8288;두&#8288;발&#8288;표 | [보기](research/credential-graph/) |
+| 「CloudTrail 관측 공백 환경에서 AWS 인프라 상태 변화 기반 그래프 추적 모델」 | 구&#8288;두&#8288;발&#8288;표 | [보기](research/state-change-graph/) |
 
 ## 성과보고회와 수상
 
 [성과보고회 발표 자료](showcase/final-presentation.pdf)에서 전체 연구의 흐름과 검증 결과를 확인할 수 있습니다. 부록에 수록했던 논문별 발표 자료는 위 연구 목록에서 각각 제공합니다.
 
-| 날짜 | 수상 | 대상 |
-| --- | --- | --- |
-| 2026.11.10 | 한국정보보호산업협회 ICT 융합보안 우수크루상 | 제로클라우드 팀 |
-| 2026.10.29 | 행정안전부 장관상 | [N²SF 도입 의사결정 프레임워크 논문](research/n2sf-adoption/) |
-| 2026.10.29 | 한국정보보호학회장상 | [N2SF 모델3 등급 라벨 생애주기 통제 논문](research/n2sf-label/) |
+- 2026.11.10 한국정보보호산업협회 ICT 융합보안 우수크루상 (제로클라우드 팀)
+- 2026.10.29 행정안전부 장관상 (N²SF 도입 의사결정 프레임워크 논문)
+- 2026.10.29 한국정보보호학회장상 (N2SF 모델3 등급 라벨 생애주기 통제 논문)
 
 ## 함께한 활동
 
